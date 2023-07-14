@@ -1,13 +1,49 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Front End Online Story
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Resumo
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Neste projeto foi criado uma versão simplificada, sem persistência no banco de dados, de uma loja online, em um cenário próximo ao do mercado de trabalho.
+
+A partir dessas demandas, teremos uma aplicação em que pessoas usuárias poderão:
+<ul>
+  <li>
+    Buscar produtos por termos e categorias a partir da API do Mercado Livre;
+  </li>
+  <li>
+    Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades;
+  </li>
+  <li>
+    Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações e;
+  </li>
+  <li>
+    Simular a finalização da compra dos itens selecionados.
+  </li>
+</ul>
+
+## Tecnologias
+
+Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
+
+- [VS Code](https://code.visualstudio.com/) com [ESLint](https://eslint.org/)
+- [JavaScript]()
+- [React]()
+- [NodeJs]()
+
+<br>
+
+## Instalação e uso
+
+```bash
+# Abra um terminal e copie este repositório com o comando
+git clone git@github.com:LEXW3B/front-end-online-story.git
+
+# Entre na pasta backend 
+cd front-end-online-story/
+
+# Instale as dependências 
+npm install
+ou
+yarn install
+
+# Rode a aplicação
+npm start
